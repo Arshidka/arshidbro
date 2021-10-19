@@ -1,7 +1,7 @@
 <div align="center">
-<img src="https://i.imgur.com/6nR8tPu.jpeg" alt="paul" width="300" />
+<img src="https://i.imgur.com/6nR8tPu.jpeg" alt="kriz" width="300" />
 
-# PAUL WALKER
+# KRIZ SER
 
 >
 >
@@ -9,14 +9,14 @@
 </div>
 <p align="center">
   <a href="https://instagram.com/synzx_nbx"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
-  <a href="https://wa.me/917356378949"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://wa.me/919633687665"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 ## HOW TO INSTALL ON TERMUX
 ```bash
 > pkg install nodejs && pkg install git
-> git clone https://github.com/aneeslub/paul-walker
-> cd paul-walker
+> git clone https://github.com/KANNANSIR/kannanbro
+> cd kannanbro
 > npm i -g npm@6.14.14
 > npm install @adiwajshing/bailyes
 > npm install terminal-kit
@@ -25,8 +25,8 @@
 ```
 ## HOW TO INSTALL ON PC
 ```bash
-> git clone https://github.com/aneeslub/paul-walker
-> cd paul-walker
+> git clone https://github.com/KANNANSIR/kannanbro
+> cd kannanbro
 > npm install terminal-kit
 > npm i
 > npm start/node index.js
@@ -40,6 +40,6 @@
 
 # THANKS TO
 * [`Baileys`](https://github.com/adiwajshing/Baileys) 
-* [`aneeslub`](https://github.com/aneeslub) 
+* [`aneeslub`](https://github.com/KANNANSIR) 
   
   
