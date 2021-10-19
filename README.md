@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.imgur.com/6nR8tPu.jpeg" alt="kriz" width="300" />
+<img src="https://i.imgur.com/q8iLT3f.jpeg" alt="kriz" width="300" />
 
 # KRIZ SER
 
