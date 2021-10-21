@@ -1,8 +1,8 @@
 <div align="center">
 <img src="https://i.imgur.com/q8iLT3f.jpeg" alt="kriz" width="300" />
 
-# KRIZ SER
-> KRIZ SER BOT is a multipurpose WhatsApp bot using Adiwajshing-Bail## `Deploy`
+# TOM SER
+> TOM SER BOT is a multipurpose WhatsApp bot using Adiwajshing-Bail## `Deploy`
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dilmano/Ameen-Ser-OFC/)
 
@@ -16,13 +16,13 @@
 </div>
 <p align="center">
   <a href="https://instagram.com/synzx_nbx"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
-  <a href="https://wa.me/919633687665"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://wa.me/918590634460"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 ## HOW TO INSTALL ON TERMUX
 ```bash
 > pkg install nodejs && pkg install git
-> git clone https://github.com/KANNANSIR/kannanbro
+> git clone https://github.com/Arshidka/arshidbro
 > cd kannanbro
 > npm i -g npm@6.14.14
 > npm install @adiwajshing/bailyes
@@ -32,7 +32,7 @@
 ```
 ## HOW TO INSTALL ON PC
 ```bash
-> git clone https://github.com/KANNANSIR/kannanbro
+> git clone https://github.com/Arshidka/arshidbro
 > cd kannanbro
 > npm install terminal-kit
 > npm i
@@ -47,6 +47,6 @@
 
 # THANKS TO
 * [`Baileys`](https://github.com/adiwajshing/Baileys) 
-* [`aneeslub`](https://github.com/KANNANSIR) 
+* [`aneeslub`](https://github.com/Arshidka) 
   
   
